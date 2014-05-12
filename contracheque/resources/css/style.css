@@ -1,0 +1,218 @@
+body{
+	background: url("../images/background.jpg");
+}
+
+.nav_menu{
+	width: 240px;
+	float:left;
+	position: relative;
+	top: 20px;
+	
+	
+}
+
+.container{
+	width: 100%;
+	height: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #ffffff; 
+	height: 80px;
+	display: block;
+	-moz-box-shadow: 0 0 8px #888;
+	-webkit-box-shadow: 0 0 8px #888; 
+	box-shadow: 0 0 8px #888; 
+}
+
+.navbar-inverse{
+	background-color: #ffffff !important; 
+}
+
+.navbar-inner{
+	background-color: #ffffff !important; 
+}
+
+
+
+.panel-heading{
+	background: -webkit-linear-gradient(to bottom,#e0e0e0 40%,#e8e8e8 75%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to bottom,#e0e0e0 40%,#e8e8e8 75%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to bottom,#e0e0e0 40%,#e8e8e8 75%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom,#e0e0e0 40%,#e8e8e8 75%);/* Standard syntax */
+}
+
+.panel-title{
+	color: #437075;
+	font-size: 14px;
+}
+
+.panel-title a:hover{
+	text-decoration: none;
+}
+
+.glyphicon{
+	color:#437075;
+	margin: 0 8px 0 0;
+}
+
+.panel-body .table tr td a{
+	color:#437075;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.panel-body .table tr td a:hover{
+	text-decoration: none;
+}
+
+.content{
+	border:1px solid #dddddd;
+	width: 968px;
+	margin: 0 auto;
+}
+
+.content_body{
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 710px;
+	height: 100%;
+	float: right;
+	position: relative;
+	top: 25px;
+	padding: 5px 5px;
+	/*
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;*/
+	box-shadow: 0 0 2px #e2e2e2; 
+}
+
+.content-title{
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 710px;
+	height: 45px;
+	float: right;
+	position: relative;
+	top: 20px;
+	webkit-border-top-right-radius: 8px;
+	moz-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+	webkit-border-top-left-radius:8px;
+	moz-border-top-left-radius: 8px;
+	border-top-left-radius: 8px;
+	box-shadow: 0 0 2px #e2e2e2;
+	
+	 	
+}
+
+.content-title h3{
+	color:#555555;
+	margin: 15px 0 0 8px;
+	padding: 0;
+	font-size: 16px;
+}
+
+.resultado_importacao{
+	color: #000000;
+	height: 500px;	
+}
+
+
+.table{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/* ESTILO DO LOGIN DO SISTEMA ::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.row_login{
+	width: 380px;
+	height: 100%;
+	margin:0 auto;
+}
